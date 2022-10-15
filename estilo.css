@@ -1,0 +1,126 @@
+:root{
+    --azul-escuro: #4682B4;
+    --azul-claro: #1E90FF;
+    --cinza-azulado: #6E7B8B;
+    --cinza-azulado-claro: #eef4fd;
+    --cinza-texto: #444444;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+h2{
+    font-size: 2.5rem;
+    color: var(--azul-escuro);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h3{
+    font-size: 2rem;
+    color: var(--azul-claro);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h3{
+    font-size: 1.8rem;
+    color: var(--cinza-azulado);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h4{
+    font-size: 1.6rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+a{
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--azul-claro);
+}
+
+p{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cinza-texto);
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+header li{
+    display: inline;
+    margin: 0 8px;
+}
+
+header li a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--azul-claro)
+}
+
+#area_banner img{
+    width: 100%;
+}
+
+section{
+    margin: 16px 0;
+}
+
+.painel_cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 8px;
+}
+
+.card_curso{
+    text-align: center;
+    background-color: var(--cinza-azulado-claro);
+    width: 23%;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.descricao{
+    text-align: left;
+    margin: 8px 0;
+}
+
+footer{
+    background-color: var(--azul-claro);
+}
+
+footer p{
+    color: var(--cinza-azulado-claro);
+    font-size: 1rem;
+}
+
+.rodape_mapa{
+    background-color: var(--azul-escuro);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape_mapa ul{
+    list-style-type: none;
+}
+
+.rodape_mapa a{
+    color: var(--cinza-azulado-claro);
+    font-size: 1rem;
+}
+
+.rodape_mapa img{
+    margin: 8px;
+}
