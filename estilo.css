@@ -103,6 +103,7 @@ footer{
 footer p{
     color: var(--cinza-azulado-claro);
     font-size: 1rem;
+    text-align: center;
 }
 
 .rodape_mapa{
