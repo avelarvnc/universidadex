@@ -3,9 +3,10 @@
     --azul-claro: #4876FF;
     --cinza-azulado: #36648B;
     --cinza-azulado-claro: #eef4fd;
-    --cinza-azulado-escuro: #dee0e4;
+    --cinza-azulado-escuro: #c7cacf;
     --cinza-texto: #444444;
     --cinza-texto-escuro: #333;
+    --roxo-destaque: #A020F0;
 }
 
 *{
@@ -25,24 +26,28 @@ h2{
     font-size: 2.5rem;
     color: var(--azul-escuro);
     font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 8px;
 }
 
 h3{
     font-size: 1.8rem;
     color: var(--azul-claro);
     font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 8px;
 }
 
 h3{
     font-size: 1.6rem;
     color: var(--cinza-azulado);
     font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 8px;
 }
 
 h4{
     font-size: 1.5rem;
     font-family: 'Noto Sans', sans-serif;
     color: var(--cinza-texto-escuro);
+    margin-bottom: 8px;
 }
 
 
@@ -62,6 +67,7 @@ p{
     font-size: 1.2rem;
     color: var(--cinza-texto);
     line-height: 1.5;
+    margin-bottom: 8px;
 }
 
 
@@ -109,6 +115,14 @@ section{
     display: flex;
     justify-content: space-between;
     margin: 16px 8px;
+}
+
+.ancora_card{
+    margin: 0;
+}
+
+.ancora_card:hover{
+    text-decoration: none !important;
 }
 
 .card_curso{
@@ -239,14 +253,22 @@ footer p{
     margin-bottom: 24px;
 }
 
+.resumo_curso img{
+    border-radius: 5px;
+}
+
+.botao_destaque{
+    background-color: var(--roxo-destaque) !important;
+}
+
 .detalhes_curso{
     width: 80%;
 }
 
 .detalhes_curso button{
     font-size: 1.2rem;
-    width: 30%;
-    margin: 24px auto;
+    width: 20%;
+    margin: 24px 16px 24px 0;
     background-color: var(--azul-escuro);
     color: var(--cinza-azulado-claro);
     font-weight: 700;
@@ -255,10 +277,34 @@ footer p{
     height: 3rem;
 }
 
-.matriz_curso{
+.area_destaque{
+    background-color: var(--azul-escuro);
+    margin: 24px 0 !important;
+    padding: 8px 16px;
+}
+
+.area_destaque h2, .area_destaque h3 {
+    color: var(--cinza-azulado-claro);
+    margin: 16px 0;
+}
+
+.area_destaque p{
+    color: var(--cinza-azulado-escuro);
+}
+
+.area_destaque li{
+    color: var(--cinza-azulado-escuro);
+    margin-left: 24px;
+    font-size: 1.2rem;
+}
+
+#area_matriz_curso{
+    margin: 16px 8px;
+}
+
+#matriz_curso{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 16px 0;
 }
 
 .matriz_curso_semestre{
