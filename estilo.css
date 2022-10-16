@@ -28,19 +28,19 @@ h2{
 }
 
 h3{
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: var(--azul-claro);
     font-family: 'Noto Sans', sans-serif;
 }
 
 h3{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     color: var(--cinza-azulado);
     font-family: 'Noto Sans', sans-serif;
 }
 
 h4{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-family: 'Noto Sans', sans-serif;
     color: var(--cinza-texto-escuro);
 }
@@ -100,8 +100,8 @@ section{
     margin: 16px 0;
 }
 
-#area_graduacao, #area_pos{
-    margin: 8px;
+#area_graduacao, #area_pos, #area_cursos{
+    margin: 48px 8px;
 }
 
 .painel_cards{
@@ -230,3 +230,4 @@ footer p{
     border-radius: 5px;
     height: 3rem;
 }
+
