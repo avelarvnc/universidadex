@@ -61,6 +61,7 @@ a:hover
 p{
     font-size: 1.2rem;
     color: var(--cinza-texto);
+    line-height: 1.5;
 }
 
 
@@ -100,7 +101,7 @@ section{
     margin: 16px 0;
 }
 
-#area_graduacao, #area_pos, #area_cursos{
+#area_graduacao, #area_pos, #area_cursos, #area_detalhe_curso{
     margin: 48px 8px;
 }
 
@@ -231,3 +232,45 @@ footer p{
     height: 3rem;
 }
 
+.resumo_curso{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.detalhes_curso{
+    width: 80%;
+}
+
+.detalhes_curso button{
+    font-size: 1.2rem;
+    width: 30%;
+    margin: 24px auto;
+    background-color: var(--azul-escuro);
+    color: var(--cinza-azulado-claro);
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+    height: 3rem;
+}
+
+.matriz_curso{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 16px 0;
+}
+
+.matriz_curso_semestre{
+    margin: 16px 0;
+    border-radius: 10px;
+}
+
+.matriz_curso_semestre ul{
+    list-style-type: none;
+}
+
+.matriz_curso_semestre_destaque{
+    font-weight: 700;  
+    margin-bottom: 16px; 
+}
